@@ -27,8 +27,8 @@
   }
   .image-01{
     width: 62px;
-    /* width: 100%; */
-    /* height: 62px; */
+    height: 62px;
+    
   }
   .school{
     font-size: 2rem;
@@ -69,14 +69,14 @@
     border: none;
   }
   /* media quiries for mobile devices */
-  @media screen and (max-width: 576px) {
+  @media screen and (min-width:700px) and (max-width: 800px) {
       .school{
         display: none;
       }
       .facility{
         display: none;
       }
-     /* .image-01{
-        width: 62px;
-     } */
+    .btn-1{
+        display: none;
+    }
   }

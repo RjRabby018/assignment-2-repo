@@ -27,7 +27,8 @@
   }
   .image-01{
     width: 62px;
-    height: 62px;
+    /* width: 100%; */
+    /* height: 62px; */
   }
   .school{
     font-size: 2rem;
@@ -66,4 +67,16 @@
     background-color: #FEA301;
     border-radius: 12px;
     border: none;
+  }
+  /* media quiries for mobile devices */
+  @media screen and (max-width: 576px) {
+      .school{
+        display: none;
+      }
+      .facility{
+        display: none;
+      }
+     /* .image-01{
+        width: 62px;
+     } */
   }
